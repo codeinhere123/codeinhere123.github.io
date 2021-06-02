@@ -1,0 +1,863 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
+<!--[if (IE 9)]><html class="no-js ie9" lang="en"><![endif]-->
+<!--[if gt IE 8]><!--> <html lang="en-US"> <!--<![endif]-->
+<head>
+
+<!-- Meta Tags -->
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<title>UNICO GLOBAL MARKETING</title>   
+
+<meta name="description" content="Insert Your Site Description" /> 
+
+<!-- Mobile Specifics -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="HandheldFriendly" content="true"/>
+<meta name="MobileOptimized" content="320"/>   
+
+<!-- Mobile Internet Explorer ClearType Technology -->
+<!--[if IEMobile]>  <meta http-equiv="cleartype" content="on">  <![endif]-->
+
+<!-- Bootstrap -->
+<link href="_include/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Main Style -->
+<link href="_include/css/main.css" rel="stylesheet">
+
+<!-- Supersized -->
+<link href="_include/css/supersized.css" rel="stylesheet">
+<link href="_include/css/supersized.shutter.css" rel="stylesheet">
+
+<!-- FancyBox -->
+<link href="_include/css/fancybox/jquery.fancybox.css" rel="stylesheet">
+
+<!-- Font Icons -->
+<link href="_include/css/fonts.css" rel="stylesheet">
+
+<!-- Shortcodes -->
+<link href="_include/css/shortcodes.css" rel="stylesheet">
+
+<!-- Responsive -->
+<link href="_include/css/bootstrap-responsive.min.css" rel="stylesheet">
+<link href="_include/css/responsive.css" rel="stylesheet">
+
+<!-- Supersized -->
+<link href="_include/css/supersized.css" rel="stylesheet">
+<link href="_include/css/supersized.shutter.css" rel="stylesheet">
+
+<!-- Google Font -->
+<link href='http://fonts.googleapis.com/css?family=Titillium+Web:400,200,200italic,300,300italic,400italic,600,600italic,700,700italic,900' rel='stylesheet' type='text/css'>
+
+<!-- Fav Icon -->
+<link rel="shortcut icon" href="#">
+
+<link rel="apple-touch-icon" href="#">
+<link rel="apple-touch-icon" sizes="114x114" href="#">
+<link rel="apple-touch-icon" sizes="72x72" href="#">
+<link rel="apple-touch-icon" sizes="144x144" href="#">
+
+<!-- Modernizr -->
+<script src="_include/js/modernizr.js"></script>
+
+<!-- Analytics -->
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'Insert Your Code']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+<!-- End Analytics -->
+
+</head>
+
+
+<body>
+
+<!-- This section is for Splash Screen -->
+<div class="ole">
+<section id="jSplash">
+	<div id="circle"></div>
+</section>
+</div>
+<!-- End of Splash Screen -->
+
+<!-- Homepage Slider -->
+<div id="home-slider">	
+    <div class="overlay"></div>
+
+    <div class="slider-text">
+    	<div id="slidecaption"></div>
+    </div>   
+	
+	<div class="control-nav">
+        <a id="prevslide" class="load-item"><i class="font-icon-arrow-simple-left"></i></a>
+        <a id="nextslide" class="load-item"><i class="font-icon-arrow-simple-right"></i></a>
+        <ul id="slide-list"></ul>
+        
+        <a id="nextsection" href="#work"><i class="font-icon-arrow-simple-down"></i></a>
+    </div>
+</div>
+<!-- End Homepage Slider -->
+
+<!-- Header -->
+<header>
+    <div class="sticky-nav">
+    	<a id="mobile-nav" class="menu-nav" href="#menu-nav"></a>
+        
+        <div id="logo">
+        	<a id="goUp" href="#home-slider" title="Unico Global Marketing">UNICO GLOBAL MARKETING</a>
+        </div>
+        
+        <nav id="menu">
+        	<ul id="menu-nav">
+            	<li class="current"><a href="#home-slider">Home</a></li>
+                <li><a href="#work">Products</a></li>
+                <li><a href="#about">Our Clientele</a></li>
+                <li><a href="#contact">Contact</a></li>
+				<!--to gether another page from the code
+                    <li><a href="shortcodes.html" class="external">Shortcodes</a></li> 
+                -->
+            </ul>
+        </nav>
+        
+    </div>
+</header>
+<!-- End Header -->
+
+<!-- Our Work Section -->
+<div id="work" class="page">
+	<div class="container">
+    	<!-- Title Page -->
+        <div class="row">
+            <div class="span12">
+                <div class="title-page">
+                    <h2 class="title">Products</h2>
+                    <h3 class="title-description">Check Out Our Printed Materials.</h3>
+                </div>
+            </div>
+        </div>
+        <!-- End Title Page -->
+        
+        <!-- Portfolio Projects -->
+        <div class="row">
+        	<div class="span3">
+            	<!-- Filter -->
+                <nav id="options" class="work-nav">
+                    <ul id="filters" class="option-set" data-option-key="filter">
+                    	<li class="type-work">Types of Product</li>
+                        <li><a href="#filter" data-option-value="*" class="selected">All Products</a></li>
+                        <li><a href="#filter" data-option-value=".businesscard">Business card</a></li>
+                        <li><a href="#filter" data-option-value=".flyer">Flyer</a></li>
+                        <li><a href="#filter" data-option-value=".booklet">Booklet</a></li>
+                        <li><a href="#filter" data-option-value=".voucher">Voucher</a></li>
+                        <li><a href="#filter" data-option-value=".sticker">Sticker</a></li>
+                        <li><a href="#filter" data-option-value=".calendar">Calendar</a></li>
+                        <li><a href="#filter" data-option-value=".corporateshirt">Corporate Shirt</a></li>
+                        <li><a href="#filter" data-option-value=".brochure">Brochure</a></li>
+                        <li><a href="#filter" data-option-value=".paperbag">Paper bag</a></li>
+                        <li><a href="#filter" data-option-value=".poster">Poster</a></li>
+                        <li><a href="#filter" data-option-value=".moneypacket">Money Packet</a></li>
+                        <li><a href="#filter" data-option-value=".box">Box</a></li>
+                    </ul>
+                </nav>
+                <!-- End Filter -->
+            </div>
+            
+            <div class="span9">
+            	<div class="row">
+                	<section id="projects">
+                    	<ul id="thumbs">
+                        
+							                          
+							<!-- Item Project and Filter Name -->
+                        	<li class="item-thumbs span3 businesscard">
+                            	<!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                            	<a class="hover-wrap fancybox" data-fancybox-group="businesscard" title="" href="_include/img/work/full/businesscard.jpg">
+                                	<span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-plus"></span>
+                                </a>
+                                <!-- Thumb Image and Description -->
+                                <img src="_include/img/work/thumbs/businesscard.jpg" alt="">
+                            </li>
+                        	<!-- End Item Project -->
+                            
+							<!-- Item Project and Filter Name -->
+                        	<li class="item-thumbs span3 flyer">
+                            	<!-- Fancybox Media - Gallery Enabled - Title - Link to Video -->
+                            	<a class="hover-wrap fancybox-media" data-fancybox-group="flyer" title="" href="_include/img/work/full/flyer.jpg">
+                                	<span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-plus"></span>
+                                </a>
+                                <!-- Thumb Image and Description -->
+                                <img src="_include/img/work/thumbs/flyer.jpg" alt="Video">
+                            </li>
+                        	<!-- End Item Project -->
+                                                        
+							<!-- Item Project and Filter Name -->
+                        	<li class="item-thumbs span3 booklet">
+                            	<!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                            	<a class="hover-wrap fancybox" data-fancybox-group="booklet" title="" href="_include/img/work/full/booklet.jpg">
+                                	<span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-plus"></span>
+                                </a>
+                                <!-- Thumb Image and Description -->
+                                <img src="_include/img/work/thumbs/booklet.jpg" alt="">
+                            </li>
+                        	<!-- End Item Project -->
+                            
+                            <!-- Item Project and Filter Name -->
+                        	<li class="item-thumbs span3 voucher">
+                            	<!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                            	<a class="hover-wrap fancybox" data-fancybox-group="voucher" title="" href="_include/img/work/full/voucher.jpg">
+                                	<span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-plus"></span>
+                                </a>
+                                <!-- Thumb Image and Description -->
+                                <img src="_include/img/work/thumbs/voucher.jpg" alt="">
+                            </li>
+                        	<!-- End Item Project -->
+
+                            <!-- Item Project and Filter Name -->
+                        	<li class="item-thumbs span3 sticker">
+                            	<!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                            	<a class="hover-wrap fancybox" data-fancybox-group="sticker" title="" href="_include/img/work/full/sticker.jpg">
+                                	<span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-plus"></span>
+                                </a>
+                                <!-- Thumb Image and Description -->
+                                <img src="_include/img/work/thumbs/sticker.jpg" alt="">
+                            </li>
+                        	<!-- End Item Project -->
+
+                            <!-- Item Project and Filter Name -->
+                        	<li class="item-thumbs span3 calendar">
+                            	<!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                            	<a class="hover-wrap fancybox" data-fancybox-group="calendar" title="" href="_include/img/work/full/calendar.jpg">
+                                	<span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-plus"></span>
+                                </a>
+                                <!-- Thumb Image and Description -->
+                                <img src="_include/img/work/thumbs/calendar.jpg" alt="">
+                            </li>
+                        	<!-- End Item Project -->
+
+                            <!-- Item Project and Filter Name -->
+                        	<li class="item-thumbs span3 corporateshirt">
+                            	<!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                            	<a class="hover-wrap fancybox" data-fancybox-group="corporateshirt" title="" href="_include/img/work/full/corporateshirt.jpg">
+                                	<span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-plus"></span>
+                                </a>
+                                <!-- Thumb Image and Description -->
+                                <img src="_include/img/work/thumbs/corporateshirt.jpg" alt="">
+                            </li>
+                        	<!-- End Item Project -->
+
+                            <!-- Item Project and Filter Name -->
+                        	<li class="item-thumbs span3 brochure">
+                            	<!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                            	<a class="hover-wrap fancybox" data-fancybox-group="brochure" title="" href="_include/img/work/full/brochure.jpg">
+                                	<span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-plus"></span>
+                                </a>
+                                <!-- Thumb Image and Description -->
+                                <img src="_include/img/work/thumbs/brochure.jpg" alt="">
+                            </li>
+                        	<!-- End Item Project -->
+
+                            <!-- Item Project and Filter Name -->
+                        	<li class="item-thumbs span3 brochure">
+                            	<!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                            	<a class="hover-wrap fancybox" data-fancybox-group="brochure" title="" href="_include/img/work/full/A2 Size.jpg">
+                                	<span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-plus"></span>
+                                </a>
+                                <!-- Thumb Image and Description -->
+                                <img src="_include/img/work/thumbs/A2 Size.jpg" alt="">
+                            </li>
+                        	<!-- End Item Project -->
+
+                            <!-- Item Project and Filter Name -->
+                        	<li class="item-thumbs span3 paperbag">
+                            	<!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                            	<a class="hover-wrap fancybox" data-fancybox-group="paperbag" title="" href="_include/img/work/full/paperbag.jpg">
+                                	<span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-plus"></span>
+                                </a>
+                                <!-- Thumb Image and Description -->
+                                <img src="_include/img/work/thumbs/paperbag.jpg" alt="">
+                            </li>
+                        	<!-- End Item Project -->
+
+                            <!-- Item Project and Filter Name -->
+                        	<li class="item-thumbs span3 poster">
+                            	<!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                            	<a class="hover-wrap fancybox" data-fancybox-group="poster" title="" href="_include/img/work/full/poster.jpg">
+                                	<span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-plus"></span>
+                                </a>
+                                <!-- Thumb Image and Description -->
+                                <img src="_include/img/work/thumbs/poster.jpg" alt="">
+                            </li>
+                        	<!-- End Item Project -->
+
+                            <!-- Item Project and Filter Name -->
+                        	<li class="item-thumbs span3 moneypacket">
+                            	<!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                            	<a class="hover-wrap fancybox" data-fancybox-group="moneypacket" title="" href="_include/img/work/full/moneypacket.jpg">
+                                	<span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-plus"></span>
+                                </a>
+                                <!-- Thumb Image and Description -->
+                                <img src="_include/img/work/thumbs/moneypacket.jpg" alt="">
+                            </li>
+                        	<!-- End Item Project -->
+
+                            <!-- Item Project and Filter Name -->
+                        	<li class="item-thumbs span3 box">
+                            	<!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                            	<a class="hover-wrap fancybox" data-fancybox-group="box" title="" href="_include/img/work/full/Box.jpg">
+                                	<span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-plus"></span>
+                                </a>
+                                <!-- Thumb Image and Description -->
+                                <img src="_include/img/work/thumbs/Box.jpg" alt="">
+                            </li>
+                        	<!-- End Item Project -->
+                        </ul>
+                    </section>
+                    
+            	</div>
+            </div>
+        </div>
+        <!-- End Portfolio Projects -->
+    </div>
+</div>
+<!-- End Our Work Section -->
+
+<!-- Clientele Section -->
+<div id="about" class="page-alternate">
+<div class="container">
+    <!-- Title Page -->
+    <div class="row">
+        <div class="span12">
+            <div class="title-page">
+                <h2 class="title">Our clientele</h2>
+                <h3 class="title-description"></h3>
+            </div>
+        </div>
+    </div>
+    <!-- End Title Page -->
+    
+    <!-- Companies -->
+    <div class="row">
+    	
+        <!-- Start Profile -->
+    	<div class="span3 profile">
+        	<div class="image-wrap">
+                <div class="hover-wrap">
+                </div>
+                <img src="_include/img/profile/profile-01.png" >
+            </div>
+        </div>
+        <!-- End Profile -->
+        
+        <!-- Start Profile -->
+    	<div class="span3 profile">
+        	<div class="image-wrap">
+                <div class="hover-wrap">
+                </div>
+                <img src="_include/img/profile/profile-02.png" >
+            </div>
+        </div>
+        <!-- End Profile -->
+
+        <!-- Start Profile -->
+    	<div class="span3 profile">
+        	<div class="image-wrap">
+                <div class="hover-wrap">
+                </div>
+                <img src="_include/img/profile/profile-03.png">
+            </div>
+        </div>
+        <!-- End Profile -->
+
+        <!-- Start Profile -->
+    	<div class="span3 profile">
+        	<div class="image-wrap">
+                <div class="hover-wrap">
+                </div>
+                <img src="_include/img/profile/profile-04.png">
+            </div>
+        </div>
+        <!-- End Profile -->
+
+        <!-- Start Profile -->
+    	<div class="span3 profile">
+        	<div class="image-wrap">
+                <div class="hover-wrap">
+                </div>
+                <img src="_include/img/profile/profile-05.png">
+            </div>
+        </div>
+        <!-- End Profile -->
+
+        <!-- Start Profile -->
+    	<div class="span3 profile">
+        	<div class="image-wrap">
+                <div class="hover-wrap">
+                </div>
+                <img src="_include/img/profile/profile-06.png">
+            </div>
+        </div>
+        <!-- End Profile -->
+
+        <!-- Start Profile -->
+    	<div class="span3 profile">
+        	<div class="image-wrap">
+                <div class="hover-wrap">
+                </div>
+                <img src="_include/img/profile/profile-07.png">
+            </div>
+        </div>
+        <!-- End Profile -->
+
+        <!-- Start Profile -->
+    	<div class="span3 profile">
+        	<div class="image-wrap">
+                <div class="hover-wrap">
+                </div>
+                <img src="_include/img/profile/profile-08.png">
+            </div>
+        </div>
+        <!-- End Profile -->
+
+        <!-- Start Profile -->
+    	<div class="span3 profile">
+        	<div class="image-wrap">
+                <div class="hover-wrap">
+                </div>
+                <img src="_include/img/profile/profile-09.png">
+            </div>
+        </div>
+        <!-- End Profile -->
+
+        <!-- Start Profile -->
+    	<div class="span3 profile">
+        	<div class="image-wrap">
+                <div class="hover-wrap">
+                </div>
+                <img src="_include/img/profile/profile-10.png">
+            </div>
+        </div>
+        <!-- End Profile -->
+
+        <!-- Start Profile -->
+    	<div class="span3 profile">
+        	<div class="image-wrap">
+                <div class="hover-wrap">
+                </div>
+                <img src="_include/img/profile/profile-11.png">
+            </div>
+        </div>
+        <!-- End Profile -->
+
+        <!-- Start Profile -->
+    	<div class="span3 profile">
+        	<div class="image-wrap">
+                <div class="hover-wrap">
+                </div>
+                <img src="_include/img/profile/profile-12.png">
+            </div>
+        </div>
+        <!-- End Profile -->
+
+        <!-- Start Profile -->
+    	<div class="span3 profile">
+        	<div class="image-wrap">
+                <div class="hover-wrap">
+                </div>
+                <img src="_include/img/profile/profile-13.png">
+            </div>
+        </div>
+        <!-- End Profile -->
+
+        <!-- Start Profile -->
+    	<div class="span3 profile">
+        	<div class="image-wrap">
+                <div class="hover-wrap">
+                </div>
+                <img src="_include/img/profile/profile-14.png">
+            </div>
+        </div>
+        <!-- End Profile -->
+
+        <!-- Start Profile -->
+    	<div class="span3 profile">
+        	<div class="image-wrap">
+                <div class="hover-wrap">
+                </div>
+                <img src="_include/img/profile/profile-15.png">
+            </div>
+        </div>
+        <!-- End Profile -->
+
+        <!-- Start Profile -->
+    	<div class="span3 profile">
+        	<div class="image-wrap">
+                <div class="hover-wrap">
+                </div>
+                <img src="_include/img/profile/profile-16.png">
+            </div>
+        </div>
+        <!-- End Profile -->
+
+        <!-- Start Profile -->
+    	<div class="span3 profile">
+        	<div class="image-wrap">
+                <div class="hover-wrap">
+                </div>
+                <img src="_include/img/profile/profile-17.png">
+            </div>
+        </div>
+        <!-- End Profile -->
+
+        <!-- Start Profile -->
+    	<div class="span3 profile">
+        	<div class="image-wrap">
+                <div class="hover-wrap">
+                </div>
+                <img src="_include/img/profile/profile-18.png">
+            </div>
+        </div>
+        <!-- End Profile -->
+
+        <!-- Start Profile -->
+    	<div class="span3 profile">
+        	<div class="image-wrap">
+                <div class="hover-wrap">
+                </div>
+                <img src="_include/img/profile/profile-19.png">
+            </div>
+        </div>
+        <!-- End Profile -->
+
+        <!-- Start Profile -->
+    	<div class="span3 profile">
+        	<div class="image-wrap">
+                <div class="hover-wrap">
+                </div>
+                <img src="_include/img/profile/profile-20.png">
+            </div>
+        </div>
+        <!-- End Profile -->
+
+        <!-- Start Profile -->
+    	<div class="span3 profile">
+        	<div class="image-wrap">
+                <div class="hover-wrap">
+                </div>
+                <img src="_include/img/profile/profile-21.png">
+            </div>
+        </div>
+        <!-- End Profile -->
+
+        <!-- Start Profile -->
+    	<div class="span3 profile">
+        	<div class="image-wrap">
+                <div class="hover-wrap">
+                </div>
+                <img src="_include/img/profile/profile-22.png">
+            </div>
+        </div>
+        <!-- End Profile -->
+
+        <!-- Start Profile -->
+    	<div class="span3 profile">
+        	<div class="image-wrap">
+                <div class="hover-wrap">
+                </div>
+                <img src="_include/img/profile/profile-23.png">
+            </div>
+        </div>
+        <!-- End Profile -->
+
+        <!-- Start Profile -->
+    	<div class="span3 profile">
+        	<div class="image-wrap">
+                <div class="hover-wrap">
+                </div>
+                <img src="_include/img/profile/profile-24.png">
+            </div>
+        </div>
+        <!-- End Profile -->
+
+        <!-- Start Profile -->
+    	<div class="span3 profile">
+        	<div class="image-wrap">
+                <div class="hover-wrap">
+                </div>
+                <img src="_include/img/profile/profile-25.png">
+            </div>
+        </div>
+        <!-- End Profile -->
+
+        <!-- Start Profile -->
+    	<div class="span3 profile">
+        	<div class="image-wrap">
+                <div class="hover-wrap">
+                </div>
+                <img src="_include/img/profile/profile-26.png">
+            </div>
+        </div>
+        <!-- End Profile -->
+
+        <!-- Start Profile -->
+    	<div class="span3 profile">
+        	<div class="image-wrap">
+                <div class="hover-wrap">
+                </div>
+                <img src="_include/img/profile/profile-27.png">
+            </div>
+        </div>
+        <!-- End Profile -->
+
+        <!-- Start Profile -->
+    	<div class="span3 profile">
+        	<div class="image-wrap">
+                <div class="hover-wrap">
+                </div>
+                <img src="_include/img/profile/profile-28.png">
+            </div>
+        </div>
+        <!-- End Profile -->
+
+        <!-- Start Profile -->
+    	<div class="span3 profile">
+        	<div class="image-wrap">
+                <div class="hover-wrap">
+                </div>
+                <img src="_include/img/profile/profile-29.png">
+            </div>
+        </div>
+        <!-- End Profile -->
+
+        <!-- Start Profile -->
+    	<div class="span3 profile">
+        	<div class="image-wrap">
+                <div class="hover-wrap">
+                </div>
+                <img src="_include/img/profile/profile-30.png">
+            </div>
+        </div>
+        <!-- End Profile -->
+
+        <!-- Start Profile -->
+    	<div class="span3 profile">
+        	<div class="image-wrap">
+                <div class="hover-wrap">
+                </div>
+                <img src="_include/img/profile/profile-31.png">
+            </div>
+        </div>
+        <!-- End Profile -->
+
+        <!-- Start Profile -->
+    	<div class="span3 profile">
+        	<div class="image-wrap">
+                <div class="hover-wrap">
+                </div>
+            <img src="_include/img/profile/profile-32.png">
+            </div>
+        </div>
+        <!-- End Profile -->
+
+        <!-- Start Profile -->
+    	<div class="span3 profile">
+        	<div class="image-wrap">
+                <div class="hover-wrap">
+                </div>
+            <img src="_include/img/profile/profile-33.png">
+            </div>
+        </div>
+        <!-- End Profile -->
+
+        <!-- Start Profile -->
+    	<div class="span3 profile">
+        	<div class="image-wrap">
+                <div class="hover-wrap">
+                </div>
+            <img src="_include/img/profile/profile-34.png">
+            </div>
+        </div>
+        <!-- End Profile -->
+
+        <!-- Start Profile -->
+    	<div class="span3 profile">
+        	<div class="image-wrap">
+                <div class="hover-wrap">
+                </div>
+            <img src="_include/img/profile/profile-35.png">
+            </div>
+        </div>
+        <!-- End Profile -->
+
+        <!-- Start Profile -->
+    	<div class="span3 profile">
+        	<div class="image-wrap">
+                <div class="hover-wrap">
+                </div>
+            <img src="_include/img/profile/profile-36.png">
+            </div>
+        </div>
+        <!-- End Profile -->
+
+    </div>
+    <!-- End Profile group -->
+</div>
+</div>
+<!-- End About Section -->
+
+
+<!-- Contact Section -->
+<div id="contact" class="page">
+<div class="container">
+    <!-- Title Page -->
+    <div class="row">
+        <div class="span12">
+            <div class="title-page">
+                <h2 class="title">Get in Touch</h2>
+                <h3 class="title-description">We looking forward to serve you.</h3>
+            </div>
+        </div>
+    </div>
+    <!-- End Title Page -->
+    
+    <!-- Contact Form -->
+    <div class="row">
+    	<div class="span9">
+        
+        	<form id="contact-form" method="post" class="contact-form" action="https://formsubmit.co/alex.chau@unicoprinting.com">
+                <input type="hidden" name="_subject" value="New enquiry!">
+                <input type="hidden" name="_captcha" value="false">
+            	<input id="contact_name" type="text" placeholder="Full Name" value="" name="name" />
+                </p>
+                <input id="contact_email" type="text" placeholder="Email Address" value="" name="email" />
+                </p>
+                <textarea id="contact_message" placeholder="Your Message" name="message" rows="15" cols="40"></textarea>
+                <button id="contact-submit" class="submit" name="submit">Send Your Email</button>
+            </form>
+         
+        </div>
+        
+        <div class="span3">
+        	<div class="contact-details">
+        		<h3>Contact Details</h3>
+                <ul>
+                    <li>
+                    <a href="#">office@unicoprinting.com</a>
+                    <br>
+                    <a href="#">alex.chau@unicoprinting.com</a>
+                    </li>
+                    <li>
+                    +603 9011 8517
+                    <br>
+                    +6012 969 2189
+                    </li>
+                    <li>
+                        No 11, Jalan Panglima, Bandar Mahkota Cheras
+                        <br>
+                        43200 Cheras Selangor
+                        <br>
+                        Malaysia
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- End Contact Form -->
+</div>
+</div>
+<!-- End Contact Section -->
+
+
+<!-- Twitter Feed -->
+<!-- <div id="twitter-feed" class="page-alternate">
+	<div class="container">
+    	<div class="row">
+            <div class="span12">
+                <div class="follow">
+                    <a href="https://twitter.com/Bluxart" title="Follow Me on Twitter" target="_blank"><i class="font-icon-social-twitter"></i></a>
+                </div>
+                    
+                <div id="ticker" class="query"> 
+                </div>
+            </div>
+        </div>
+    </div>
+</div> -->
+<!-- End Twitter Feed -->
+
+<!-- Socialize -->
+<!-- <div id="social-area" class="page">
+	<div class="container">
+    	<div class="row">
+            <div class="span12">
+                <nav id="social">
+                    <ul>
+                        <li><a href="https://twitter.com/Bluxart" title="Follow Me on Twitter" target="_blank"><span class="font-icon-social-twitter"></span></a></li>
+                        <li><a href="http://dribbble.com/Bluxart" title="Follow Me on Dribbble" target="_blank"><span class="font-icon-social-dribbble"></span></a></li>
+                        <li><a href="http://forrst.com/people/Bluxart" title="Follow Me on Forrst" target="_blank"><span class="font-icon-social-forrst"></span></a></li>
+                        <li><a href="http://www.behance.net/alessioatzeni" title="Follow Me on Behance" target="_blank"><span class="font-icon-social-behance"></span></a></li>
+                        <li><a href="https://www.facebook.com/Bluxart" title="Follow Me on Facebook" target="_blank"><span class="font-icon-social-facebook"></span></a></li>
+                        <li><a href="https://plus.google.com/105500420878314068694" title="Follow Me on Google Plus" target="_blank"><span class="font-icon-social-google-plus"></span></a></li>
+                        <li><a href="http://www.linkedin.com/in/alessioatzeni" title="Follow Me on LinkedIn" target="_blank"><span class="font-icon-social-linkedin"></span></a></li>
+                        <li><a href="http://themeforest.net/user/Bluxart" title="Follow Me on ThemeForest" target="_blank"><span class="font-icon-social-envato"></span></a></li>
+                        <li><a href="http://zerply.com/Bluxart/public" title="Follow Me on Zerply" target="_blank"><span class="font-icon-social-zerply"></span></a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+</div> -->
+<!-- End Socialize -->
+
+<!-- Footer -->
+<footer>
+	<p class="credits">&copy;2021 by Unico Global Marketing</a> </p>
+</footer>
+<!-- End Footer -->
+
+<!-- Back To Top -->
+<a id="back-to-top" href="#">
+	<i class="font-icon-arrow-simple-up"></i>
+</a>
+<!-- End Back to Top -->
+
+
+<!-- Js -->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script> <!-- jQuery Core -->
+<script src="_include/js/bootstrap.min.js"></script> <!-- Bootstrap -->
+<script src="_include/js/supersized.3.2.7.min.js"></script> <!-- Slider -->
+<script src="_include/js/waypoints.js"></script> <!-- WayPoints -->
+<script src="_include/js/waypoints-sticky.js"></script> <!-- Waypoints for Header -->
+<script src="_include/js/jquery.isotope.js"></script> <!-- Isotope Filter -->
+<script src="_include/js/jquery.fancybox.pack.js"></script> <!-- Fancybox -->
+<script src="_include/js/jquery.fancybox-media.js"></script> <!-- Fancybox for Media -->
+<script src="_include/js/jquery.tweet.js"></script> <!-- Tweet -->
+<script src="_include/js/plugins.js"></script> <!-- Contains: jPreloader, jQuery Easing, jQuery ScrollTo, jQuery One Page Navi -->
+<script src="_include/js/main.js"></script> <!-- Default JS -->
+<!-- End Js -->
+
+</body>
+</html>
